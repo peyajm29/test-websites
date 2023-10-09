@@ -1,0 +1,200 @@
+/* fonts */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-BoldItalic.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Semibold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-SemiboldItalic.ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-LightItalic.ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBoldItalic.ttf');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+    color: inherit;
+}
+
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+section p {
+    margin-bottom: 30px;
+}
+
+section .btn {
+    margin-bottom: 30px;
+}
+
+section .btn-lg {
+    padding: 10px 40px;
+    font-size: 16px;
+}
+
+section .btn-primary {
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+section .btn-primary:hover,
+section .btn-primary:focus,
+section .btn-primary:active,
+section .btn-primary.active,
+section .btn-primary:active:focus,
+section .btn-primary:active:hover,
+section .btn-primary.active:hover,
+section .btn-primary.active:focus {
+    background-color: #ee4b28;
+    border-color: #ee4b28;
+}
+
+section .btn-default {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+}
+
+section .btn-default:hover,
+section .btn-default:focus,
+section .btn-default:active,
+section .btn-default.active,
+section .btn-default:active:focus,
+section .btn-default:active:hover,
+section .btn-default.active:hover,
+section .btn-default.active:focus {
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    color: #000;
+}
+
+section .btn-success {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+section .btn-success:hover,
+section .btn-success:focus,
+section .btn-success:active,
+section .btn-success.active,
+section .btn-success:active:focus,
+section .btn-success:active:hover,
+section .btn-success.active:hover,
+section .btn-success.active:focus {
+    background-color: #449d44;
+    border-color: #449d44;
+}
+
+section .btn-info {
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+}
+
+section .btn-info:hover,
+section .btn-info:focus,
+section .btn-info:active,
+section .btn-info.active,
+section .btn-info:active:focus,
+section .btn-info:active:hover,
+section .btn-info.active:hover,
+section .btn-info.active:focus {
+    background-color: #31b0d5;
+    border-color: #31b0d5;
+}
