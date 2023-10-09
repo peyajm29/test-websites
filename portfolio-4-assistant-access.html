@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="portfolio-4-assistant-access.css">
+</head>
+<body>
+  <header role="banner">
+    <img src="headshot.jpg" alt="Headshot of Peya Mowar, a student at CMU pursuing MS Robotics.">
+    <h1>Welcome to Peya Mowar's Portfolio!</h1>
+  </header>
+
+  <nav role="navigation">
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm Peya Mowar, a student at CMU pursuing MS Robotics...</p>
+      <button type="button" aria-label="Read More about me" onclick="readMore()">Read More about me</button>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <table>
+        <caption>List of my projects</caption>
+        <thead>
+          <tr>
+            <th scope="col">Project Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Project 1</td>
+            <td>Description of project 1...</td>
+            <td>2023</td>
+          </tr>
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2022 Peya Mowar</p>
+  </footer>
+</body>
+</html>
